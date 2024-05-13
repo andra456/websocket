@@ -2,7 +2,7 @@ module.exports = {
   apps: [
     {
       name: "react",
-      script: "dist/server.js",
+      script: "dist/index.js",
     },
   ],
 };
