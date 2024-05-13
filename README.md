@@ -1,4 +1,4 @@
-# Express.js + TypeScript 5 + Esbuild
+# Express.js + TypeScript 5 + Esbuild + websocket
 
 - [express](https://expressjs.com/) - fast, unopinionated, minimalist web framework for node
 - [mongoose](https://mongoosejs.com/) - mongodb object modeling
