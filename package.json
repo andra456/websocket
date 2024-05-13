@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "start": "node build/dist/server.js",
-    "build": "esbuild src/server.ts  --bundle --platform=node --target=node10.4 --outfile=build/dist/server.js",
+    "build": "esbuild src/server.ts  --bundle --platform=node --target=node10.4 --outfile=build/dist/index.js",
     "build:ts": "tsc --project tsconfig.json",
     "dev": "nodemon --ext ts --exec node --inspect -r esbuild-register src/server.ts",
     "lint": "yarn eslint ./src --fix . --ext .js,.ts",
