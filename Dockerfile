@@ -23,7 +23,6 @@ RUN useradd -s /bin/bash -m vscode
 RUN groupadd docker
 RUN usermod -aG docker vscode
 
-RUN npm install --global pm2
 WORKDIR /app
 
 
