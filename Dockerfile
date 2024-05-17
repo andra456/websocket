@@ -32,13 +32,10 @@ COPY --from=builder /app/build .
 COPY --from=builder /app/config .
 COPY --from=builder /app/ssl .
 COPY --from=builder /app/scripts/run.sh .
+COPY --from=builder /app/package.json .
 
-
-RUN ls
-RUN ls /app/dist/
 RUN apt-get update
 RUN apt-get install tree
 RUN tree
 
 
-CMD [ "/bin/bash", "./run.sh" ]
